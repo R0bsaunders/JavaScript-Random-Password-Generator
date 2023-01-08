@@ -24,10 +24,14 @@ The finished application should like the below:
 ## Usage
 
 The gitHub Repository is here: https://github.com/R0bsaunders/JavaScript-Random-Password-Generator
+
 The live working version is here: https://r0bsaunders.github.io/JavaScript-Random-Password-Generator/
 
 All JavaScript can be found here: ![JavaScript](/assets/script/script.js)
-It will look like this: ![password-generator-screenshot](/assets/images/password-generator-screenshot.jpg)
+
+The generator will look like this: 
+
+![password-generator-screenshot](/assets/images/password-generator-screenshot.jpg)
 
 Note: There was an array of letters in both uppercase and lowercase provided in the starter code. However, we have learnt about some methods, and I have used .toUpperCase() so that only an array of lowercase letters need to be declared. I have removed the array of uppercase characters as they are not necessary now. If the user chooses to include uppercase letters then the toUpperCase() function store the letters in the available characters array as uppercase.
 
