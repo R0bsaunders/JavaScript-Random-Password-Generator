@@ -18,7 +18,7 @@ This is a demonstration of my newly learn JavaScript functions and objects to cr
 
 The finished application should like the below:
 
-![javascript-challenge-demo](/assets/images/05-javascript-challenge-demo.png)
+![javascript-challenge-demo](./assets/images/05-javascript-challenge-demo.png)
 
 
 ## Usage
@@ -27,17 +27,17 @@ The gitHub Repository is here: https://github.com/R0bsaunders/JavaScript-Random-
 
 The live working version is here: https://r0bsaunders.github.io/JavaScript-Random-Password-Generator/
 
-All JavaScript can be found here: ![JavaScript](/assets/script/script.js)
+All JavaScript can be found here: ![JavaScript](./assets/script/script.js)
 
 The generator will look like this: 
 
-![password-generator-screenshot](/assets/images/password-generator-screenshot.jpg)
+![password-generator-screenshot](./assets/images/password-generator-screenshot.jpg)
 
 Note: There was an array of letters in both uppercase and lowercase provided in the starter code. However, we have learnt about some methods, and I have used .toUpperCase() so that only an array of lowercase letters need to be declared. I have removed the array of uppercase characters as they are not necessary now. If the user chooses to include uppercase letters then the toUpperCase() function store the letters in the available characters array as uppercase.
 
 Please note the following conditionals:
 
-* On choosing the length of the password, the code validates the user's input and prompts a message (relevant to their input) in the following senarious:
+* On choosing the length of the password, the code validates the user's input and prompts a message (relevant to their input) in the following scenarios:
     * If the input is not numeric i.e. letters & special characters
     * The number is less than 'min' (stored as a variable incase it ever needs to change). Currently set to 10 for this exercise
     * The number is more than 'max' (stored as a variable incase it ever needs to change). Currently set to 64 for this exercise
